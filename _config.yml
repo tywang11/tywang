@@ -129,70 +129,16 @@ newsletter:
   enabled: false
 
 # -----------------------------------------------------------------------------
-# Blog
-# -----------------------------------------------------------------------------
-blog_name: Research Blog
-blog_description: Notes on adversarial ML and efficient deep learning
-permalink: /blog/:year/:title/
-lsi: false
-
-pagination:
-  enabled: true
-  debug: false
-  collection: posts
-  permalink: /page/:num/
-  per_page: 5
-  sort_field: date
-  sort_reverse: true
-  category: posts
-  tag: ''
-  locale: ''
-  trim_input: false
-  trail:
-    before: 1
-    after: 3
-  extension: html
-  indexpage: index.html
-
-related_blog_posts:
-  enabled: true
-  max_related: 5
-
-giscus:
-  repo: # <your-github-user-name>/<your-github-repo-name>
-  category: Comments
-  theme: preferred_color_scheme
-  lang: en
-
-disqus_shortname: # your Disqus shortname
-
-# -----------------------------------------------------------------------------
 # Collections
 # -----------------------------------------------------------------------------
 collections:
-  news:
-    defaults:
-      layout: post
-    output: true
-    permalink: /:collection/:title/
   projects:
     output: true
     permalink: /:collection/:title/
 
-announcements:
-  enabled: true
-  scrollable: true
-  limit: 5
-
-latest_posts:
-  enabled: false
-
 # -----------------------------------------------------------------------------
 # Widgets
 # -----------------------------------------------------------------------------
-visitor_maps:
-  enabled: false
-
 # -----------------------------------------------------------------------------
 # Jekyll settings
 # -----------------------------------------------------------------------------
@@ -213,51 +159,31 @@ kramdown:
 
 include: ['_pages']
 exclude:
-  - bin/
   - Gemfile
   - Gemfile.lock
   - vendor
   - .git
   - .github
-  - LICENSE
-  - README.md
-  - CONTRIBUTING.md
-  - CUSTOMIZE.md
-  - INSTALL.md
-  - lighthouse_results/
 
 keep_files:
   - CNAME
   - .nojekyll
 
 plugins:
-  - jekyll-archives
   - jekyll-email-protect
   - jekyll-feed
   - jekyll-get-json
   - jekyll-imagemagick
-  - jekyll-jupyter-notebook
   - jekyll-link-attributes
   - jekyll-minifier
-  - jekyll-paginate-v2
   - jekyll/scholar
   - jekyll-sitemap
-  - jekyll-tabs
   - jekyll-terser
   - jekyll-toc
-  - jekyll-twitter-plugin
   - jemoji
 
 sass:
   style: compressed
-
-jekyll-archives:
-  enabled: [year, tags, categories]
-  layout: archive-taxonomy
-  permalinks:
-    year: '/blog/:year/'
-    tag: '/blog/tag/:name/'
-    category: '/blog/category/:name/'
 
 jekyll-scholar:
   last_name: Wang
@@ -276,22 +202,6 @@ jektex:
 # -----------------------------------------------------------------------------
 # Responsive images
 # -----------------------------------------------------------------------------
-imagemagick:
-  enabled: true
-  widths:
-    - 480
-    - 800
-    - 1400
-  input_directories:
-    - assets/img/
-  input_formats:
-    - .jpg
-    - .jpeg
-    - .png
-    - .tiff
-  output_formats:
-    webp: .webp
-
 # -----------------------------------------------------------------------------
 # Link attributes
 # -----------------------------------------------------------------------------
@@ -312,17 +222,6 @@ jekyll-minifier:
 jekyll-terser:
   ignore:
     - "assets/libs/**/*"
-
-# -----------------------------------------------------------------------------
-# Feature flags
-# -----------------------------------------------------------------------------
-enable_google_analytics: false
-enable_cronitor_analytics: false
-enable_pirsch_analytics: false
-enable_openpanel_analytics: false
-google_analytics_id: # your google analytics measurement id
-cookie_consent:
-  enabled: false
 
 # -----------------------------------------------------------------------------
 # Font Awesome
