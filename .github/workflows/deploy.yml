@@ -1,0 +1,45 @@
+name: Deploy site
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.3"
+          bundler-cache: true
+
+      - name: Update _config.yml for GitHub Pages
+        run: |
+          sed -i "s|http://localhost:8080|https://tywang11.github.io|g" _config.yml
+          sed -i "s|baseurl: \"|baseurl: \"/tywang\"|g" _config.yml
+          sed -i "s|baseurl: ''|baseurl: \"/tywang\"|g" _config.yml
+          cat _config.yml | grep -E "(url|baseurl):"
+
+      - name: Install and Build
+        run: |
+          export JEKYLL_ENV=production
+          bundle exec jekyll build
+
+      - name: Deploy
+        if: github.event_name != 'pull_request'
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_site
