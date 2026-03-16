@@ -1,0 +1,203 @@
+# Third-party libraries configuration for al-folio theme
+# CDN URLs and integrity hashes for external dependencies
+
+mdb:
+  url:
+    css: https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.2.0/mdb.min.css
+    js: https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.2.0/mdb.umd.min.js
+  integrity:
+    css: sha256-Rx...REPLACE
+    js: sha256-Rx...REPLACE
+
+google_fonts:
+  url:
+    fonts: https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap
+
+jquery:
+  url:
+    js: https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js
+  integrity:
+    js: sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=
+
+mathjax:
+  url:
+    js: https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.min.js
+  integrity:
+    js: sha256-...
+
+medium_zoom:
+  url:
+    js: https://cdn.jsdelivr.net/npm/medium-zoom@1.1.0/dist/medium-zoom.min.js
+  integrity:
+    js: sha256-...
+
+# Minimal placeholder for other libraries used in conditionals
+bootstrap-table:
+  url:
+    css: ""
+    js: ""
+  integrity:
+    css: ""
+    js: ""
+
+pseudocode:
+  url:
+    css: ""
+    js: ""
+  integrity:
+    css: ""
+    js: ""
+
+leaflet:
+  url:
+    css: ""
+    js: ""
+  integrity:
+    css: ""
+    js: ""
+
+highlightjs:
+  url:
+    css:
+      light: ""
+      dark: ""
+    js: ""
+  integrity:
+    css:
+      light: ""
+      dark: ""
+    js: ""
+
+diff2html:
+  url:
+    css: ""
+    js: ""
+  integrity:
+    css: ""
+    js: ""
+
+img-comparison-slider:
+  url:
+    css: ""
+    js: ""
+  integrity:
+    css: ""
+    js: ""
+
+lightbox2:
+  url:
+    css: ""
+    js: ""
+  integrity:
+    css: ""
+    js: ""
+
+photoswipe:
+  url:
+    css: ""
+    js: ""
+  integrity:
+    css: ""
+    js: ""
+
+swiper:
+  url:
+    css: ""
+    js: ""
+  integrity:
+    css: ""
+    js: ""
+
+spotlight:
+  url:
+    css: ""
+    js: ""
+  integrity:
+    css: ""
+    js: ""
+
+venobox:
+  url:
+    css: ""
+    js: ""
+  integrity:
+    css: ""
+    js: ""
+
+vanilla-cookieconsent:
+  url:
+    css: ""
+    js: ""
+  integrity:
+    css: ""
+    js: ""
+
+masonry:
+  url:
+    js: ""
+  integrity:
+    js: ""
+
+imagesloaded:
+  url:
+    js: ""
+  integrity:
+    js: ""
+
+mermaid:
+  url:
+    js: ""
+  integrity:
+    js: ""
+
+d3:
+  url:
+    js: ""
+  integrity:
+    js: ""
+
+chartjs:
+  url:
+    js: ""
+  integrity:
+    js: ""
+
+echarts:
+  url:
+    js:
+      library: ""
+      dark_theme: ""
+  integrity:
+    js:
+      library: ""
+      dark_theme: ""
+
+plotly:
+  url:
+    js: ""
+  integrity:
+    js: ""
+
+vega:
+  url:
+    js: ""
+  integrity:
+    js: ""
+
+vega-lite:
+  url:
+    js: ""
+  integrity:
+    js: ""
+
+vega-embed:
+  url:
+    js: ""
+  integrity:
+    js: ""
+
+polyfill:
+  url:
+    js: ""
+  integrity:
+    js: ""

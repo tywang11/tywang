@@ -23,7 +23,7 @@ icon: icon.jpg
 
 # Navbar logo image (shows image instead of text name in top-left corner)
 # Leave empty to show text name, or set to image filename in assets/img/
-navbar_logo: wty.png
+navbar_logo: icon.jpg
 
 url: https://tywang11.github.io
 baseurl: /tywang
