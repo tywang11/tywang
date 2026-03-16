@@ -1,0 +1,332 @@
+# -----------------------------------------------------------------------------
+# Site settings
+# -----------------------------------------------------------------------------
+
+title: blank
+first_name: Tianyi
+middle_name: 
+last_name: Wang
+contact_note: >
+  Ph.D. Student at Zhejiang University
+  
+description: > 
+  Ph.D. student at Zhejiang University, focusing on adversarial machine learning, 
+  real-time object detection, and LLM serving systems. Research interests include 
+  adversarial attacks, defense mechanisms, and efficient deep learning systems.
+
+footer_text: >
+  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+
+keywords: machine learning, adversarial attacks, object detection, LLM serving, edge computing
+lang: en
+icon: icon.jpg
+
+# Navbar logo image (shows image instead of text name in top-left corner)
+# Leave empty to show text name, or set to image filename in assets/img/
+navbar_logo: wty.png
+
+url: https://tywang11.github.io
+baseurl: /tywang
+last_updated: true
+back_to_top: true
+
+# -----------------------------------------------------------------------------
+# Theme
+# -----------------------------------------------------------------------------
+repo_theme_light: default
+repo_theme_dark: dark
+repo_trophies:
+  enabled: true
+  theme_light: flat
+  theme_dark: gitdimmed
+
+external_services:
+  github_readme_stats_url: https://github-readme-stats.vercel.app
+  github_profile_trophy_url: https://github-profile-trophy.vercel.app
+
+# -----------------------------------------------------------------------------
+# Layout
+# -----------------------------------------------------------------------------
+navbar_fixed: true
+footer_fixed: true
+search_enabled: true
+socials_in_search: true
+posts_in_search: true
+bib_search: true
+
+max_width: 930px
+
+serve_og_meta: false
+serve_schema_org: false
+
+# -----------------------------------------------------------------------------
+# Interests
+# -----------------------------------------------------------------------------
+interests:
+  - Adversarial Machine Learning
+  - Real-time Object Detection
+  - LLM Serving Systems
+  - Edge Computing
+
+# -----------------------------------------------------------------------------
+# Education
+# -----------------------------------------------------------------------------
+education:
+  - degree: Ph.D. in Control Science and Engineering
+    institution: Zhejiang University
+    year: 2023.9 - 2026.9 (Expected)
+    
+  - degree: M.S. in Electronic Information
+    institution: Zhejiang University
+    year: 2021.9 - 2023.7 (Converted to Ph.D.)
+    
+  - degree: B.S. in Automation
+    institution: Zhengzhou University
+    year: 2016.9 - 2020.7
+
+# -----------------------------------------------------------------------------
+# Social integration
+# -----------------------------------------------------------------------------
+github_username: Hill-Wu-1998
+gitlab_username: # your GitLab user name
+x_username: # your X handle
+mastodon_username: # your mastodon instance+username in the format instance.tld/@username
+linkedin_username: # your LinkedIn user name
+telegram_username: # your Telegram user name
+# scholar_userid: # your Google Scholar ID
+semanticscholar_id: # your Semantic Scholar ID
+whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
+orcid_id: # your ORCID ID
+medium_username: # your Medium username
+quora_username: # your Quora username
+publons_id: # your ID on Publons
+lattes_id: # your ID on Lattes (Brazil)
+osf_id: # your OSF ID
+research_gate_profile: # your profile on ResearchGate
+scopus_id: # your profile on Scopus
+blogger_url: # your blogger URL
+work_url: # work page URL
+keybase_username: # your keybase user name
+wikidata_id: # your wikidata id
+wikipedia_id: # your wikipedia id (Case sensitive)
+strava_userid: # your strava user id
+keyword_scholar_id: # your Keyword Scholar ID
+pubmed_id: # your PubMed ID (https://pubmed.ncbi.nlm.nih.gov/)
+inspirehep_id: # your inspire HEP ID (https://inspirehep.net/authors/)
+instagram_id: # your instagram id
+facebook_id: # your facebook id
+discord_id: # your discord id (18-digit unique numerical identifier)
+zotero_username: # your zotero username
+wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
+
+contact_note: >
+  Ph.D. Student | Zhejiang University
+
+# -----------------------------------------------------------------------------
+# Newsletter
+# -----------------------------------------------------------------------------
+newsletter:
+  enabled: false
+
+# -----------------------------------------------------------------------------
+# Blog
+# -----------------------------------------------------------------------------
+blog_name: Research Blog
+blog_description: Notes on adversarial ML and efficient deep learning
+permalink: /blog/:year/:title/
+lsi: false
+
+pagination:
+  enabled: true
+  debug: false
+  collection: posts
+  permalink: /page/:num/
+  per_page: 5
+  sort_field: date
+  sort_reverse: true
+  category: posts
+  tag: ''
+  locale: ''
+  trim_input: false
+  trail:
+    before: 1
+    after: 3
+  extension: html
+  indexpage: index.html
+
+related_blog_posts:
+  enabled: true
+  max_related: 5
+
+giscus:
+  repo: # <your-github-user-name>/<your-github-repo-name>
+  category: Comments
+  theme: preferred_color_scheme
+  lang: en
+
+disqus_shortname: # your Disqus shortname
+
+# -----------------------------------------------------------------------------
+# Collections
+# -----------------------------------------------------------------------------
+collections:
+  news:
+    defaults:
+      layout: post
+    output: true
+    permalink: /:collection/:title/
+  projects:
+    output: true
+    permalink: /:collection/:title/
+
+announcements:
+  enabled: true
+  scrollable: true
+  limit: 5
+
+latest_posts:
+  enabled: false
+
+# -----------------------------------------------------------------------------
+# Widgets
+# -----------------------------------------------------------------------------
+visitor_maps:
+  enabled: false
+
+# -----------------------------------------------------------------------------
+# Jekyll settings
+# -----------------------------------------------------------------------------
+markdown: kramdown
+highlighter: rouge
+timezone: Asia/Shanghai
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: highlight
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+      start_line: 1
+
+include: ['_pages']
+exclude:
+  - bin/
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - .git
+  - .github
+  - LICENSE
+  - README.md
+  - CONTRIBUTING.md
+  - CUSTOMIZE.md
+  - INSTALL.md
+  - lighthouse_results/
+
+keep_files:
+  - CNAME
+  - .nojekyll
+
+plugins:
+  - jekyll-archives
+  - jekyll-email-protect
+  - jekyll-feed
+  - jekyll-get-json
+  - jekyll-imagemagick
+  - jekyll-jupyter-notebook
+  - jekyll-link-attributes
+  - jekyll-minifier
+  - jekyll-paginate-v2
+  - jekyll/scholar
+  - jekyll-sitemap
+  - jekyll-tabs
+  - jekyll-terser
+  - jekyll-toc
+  - jekyll-twitter-plugin
+  - jemoji
+
+sass:
+  style: compressed
+
+jekyll-archives:
+  enabled: [year, tags, categories]
+  layout: archive-taxonomy
+  permalinks:
+    year: '/blog/:year/'
+    tag: '/blog/tag/:name/'
+    category: '/blog/category/:name/'
+
+jekyll-scholar:
+  last_name: Wang
+  first_name: [Tianyi]
+  style: apa
+  locale: en
+  source: /_bibliography/
+  bibliography: papers.bib
+  bibliography_template: bib
+  bibtex_filters: [latex, smallcaps, superscript]
+  bibtex_skip_fields: [abstract, month, issn]
+
+jektex:
+  enabled: false
+
+# -----------------------------------------------------------------------------
+# Responsive images
+# -----------------------------------------------------------------------------
+imagemagick:
+  enabled: true
+  widths:
+    - 480
+    - 800
+    - 1400
+  input_directories:
+    - assets/img/
+  input_formats:
+    - .jpg
+    - .jpeg
+    - .png
+    - .tiff
+  output_formats:
+    webp: .webp
+
+# -----------------------------------------------------------------------------
+# Link attributes
+# -----------------------------------------------------------------------------
+link_attributes:
+  pdf: 'data-fancybox="gallery" data-caption=""'
+
+# -----------------------------------------------------------------------------
+# Jekyll Minifier
+# -----------------------------------------------------------------------------
+jekyll-minifier:
+  exclude: ['robots.txt']
+  uglifier_args:
+    harmony: true
+
+# -----------------------------------------------------------------------------
+# Jekyll Terser
+# -----------------------------------------------------------------------------
+jekyll-terser:
+  ignore:
+    - "assets/libs/**/*"
+
+# -----------------------------------------------------------------------------
+# Feature flags
+# -----------------------------------------------------------------------------
+enable_google_analytics: false
+enable_cronitor_analytics: false
+enable_pirsch_analytics: false
+enable_openpanel_analytics: false
+google_analytics_id: # your google analytics measurement id
+cookie_consent:
+  enabled: false
+
+# -----------------------------------------------------------------------------
+# Font Awesome
+# -----------------------------------------------------------------------------
+fontawesome:
+  version: "6.7.1"
+  integrity: "sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="

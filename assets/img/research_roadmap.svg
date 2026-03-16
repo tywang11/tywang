@@ -1,0 +1,979 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_图层_1" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 766 475.2">
+  <!-- Generator: Adobe Illustrator 29.1.0, SVG Export Plug-In . SVG Version: 2.1.0 Build 142)  -->
+  <defs>
+    <style>
+      .st0 {
+        stroke: #fde68a;
+      }
+
+      .st0, .st1, .st2, .st3, .st4, .st5 {
+        fill: none;
+      }
+
+      .st1 {
+        stroke: #bbf7d0;
+      }
+
+      .st6 {
+        fill: #fee2e2;
+      }
+
+      .st2 {
+        stroke: #2563eb;
+      }
+
+      .st2, .st7, .st8, .st9, .st5 {
+        stroke-width: 2px;
+      }
+
+      .st2, .st5 {
+        stroke-dasharray: 5 4;
+      }
+
+      .st10, .st11 {
+        fill: #fff;
+      }
+
+      .st12 {
+        fill: #f1f5f9;
+      }
+
+      .st13 {
+        fill: url(#_未命名的渐变);
+        stroke: #e2e8f0;
+      }
+
+      .st3 {
+        stroke: #bfdbfe;
+      }
+
+      .st14, .st15, .st16, .st17, .st18, .st19, .st20, .st21, .st22, .st23, .st24, .st25, .st26, .st27, .st28, .st29 {
+        isolation: isolate;
+      }
+
+      .st14, .st15, .st17, .st21, .st22, .st23, .st24, .st26, .st27, .st28, .st29 {
+        font-family: System, System;
+      }
+
+      .st14, .st16, .st19, .st20, .st30 {
+        fill: #64748b;
+      }
+
+      .st14, .st19 {
+        font-size: 10px;
+      }
+
+      .st31 {
+        fill: #d1fae5;
+      }
+
+      .st15, .st32, .st21, .st9 {
+        fill: #2563eb;
+      }
+
+      .st15, .st20, .st22, .st23, .st28 {
+        font-size: 8px;
+      }
+
+      .st11 {
+        fill-opacity: .9;
+      }
+
+      .st16, .st17, .st21, .st24, .st25, .st29 {
+        font-size: 9px;
+      }
+
+      .st16, .st19, .st20 {
+        font-family: ArialMT, Arial;
+      }
+
+      .st7, .st8, .st9 {
+        stroke: #fff;
+      }
+
+      .st7, .st33 {
+        fill: #f59e0b;
+      }
+
+      .st34, .st17, .st22 {
+        fill: #059669;
+      }
+
+      .st8, .st24 {
+        fill: #10b981;
+      }
+
+      .st35 {
+        fill: #fef3c7;
+      }
+
+      .st23, .st36, .st29 {
+        fill: #dc2626;
+      }
+
+      .st37, .st25 {
+        fill: #94a3b8;
+      }
+
+      .st4 {
+        stroke: #fecaca;
+      }
+
+      .st25 {
+        font-family: Arial-ItalicMT, Arial;
+        font-style: italic;
+      }
+
+      .st38 {
+        fill: #dbeafe;
+      }
+
+      .st26 {
+        font-size: 13px;
+      }
+
+      .st26, .st27 {
+        fill: #1e293b;
+      }
+
+      .st27 {
+        font-size: 14px;
+      }
+
+      .st28 {
+        fill: #d97706;
+      }
+
+      .st5 {
+        stroke: #10b981;
+      }
+    </style>
+    <linearGradient id="_未命名的渐变" data-name="未命名的渐变" x1="-5390.6" y1="747.6" x2="-5389.7" y2="746.7" gradientTransform="translate(4851494.5 351379.2) scale(900 -470)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f8fafc"/>
+      <stop offset="1" stop-color="#f1f5f9"/>
+    </linearGradient>
+  </defs>
+  <rect class="st13" x="5.5" y="4.7" width="760" height="470" rx="16" ry="16"/>
+  <g class="st18">
+    <g class="st18">
+      <g class="st18">
+        <g class="st18">
+          <g class="st18">
+            <g class="st18">
+              <g class="st18">
+                <g class="st18">
+                  <g class="st18">
+                    <g class="st18">
+                      <text class="st27" transform="translate(41.5 36.7)"><tspan x="0" y="0">Ph.D. Research: Bottom-up Security</tspan></text>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g class="st18">
+    <g class="st18">
+      <g class="st18">
+        <g class="st18">
+          <g class="st18">
+            <g class="st18">
+              <g class="st18">
+                <g class="st18">
+                  <g class="st18">
+                    <g class="st18">
+                      <text class="st27" transform="translate(481.5 36.7)"><tspan x="0" y="0">Collaboration: Edge Optimization</tspan></text>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g>
+    <rect class="st10" x="6.5" y="52.7" width="400" height="110" rx="10" ry="10"/>
+    <rect class="st4" x="6.5" y="52.7" width="400" height="110" rx="10" ry="10"/>
+    <path class="st36" d="M43.5,48.7h0c1.1,0,2,.9,2,2v106c0,1.1-.9,2-2,2h0c-1.1,0-2-.9-2-2V50.7c0-1.1.9-2,2-2Z"/>
+    <rect class="st6" x="53.5" y="60.7" width="75" height="18" rx="4" ry="4"/>
+    <g class="st18">
+      <g class="st18">
+        <g class="st18">
+          <g class="st18">
+            <g class="st18">
+              <g class="st18">
+                <g class="st18">
+                  <g class="st18">
+                    <g class="st18">
+                      <g class="st18">
+                        <text class="st29" transform="translate(60.7 73.7)"><tspan x="0" y="0">SYSTEM LAYER</tspan></text>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <rect class="st6" x="336.5" y="60.7" width="60" height="18" rx="4" ry="4"/>
+    <g class="st18">
+      <g class="st18">
+        <g class="st18">
+          <g class="st18">
+            <g class="st18">
+              <g class="st18">
+                <g class="st18">
+                  <g class="st18">
+                    <g class="st18">
+                      <g class="st18">
+                        <text class="st23" transform="translate(341 72.7)"><tspan x="0" y="0">arXiv preprint</tspan></text>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g class="st18">
+      <g class="st18">
+        <g class="st18">
+          <g class="st18">
+            <g class="st18">
+              <g class="st18">
+                <g class="st18">
+                  <g class="st18">
+                    <g class="st18">
+                      <g class="st18">
+                        <text class="st26" transform="translate(56.5 98.7)"><tspan x="0" y="0">Rethinking Latency DoS in LLM Serving</tspan></text>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g class="st18">
+      <g class="st18">
+        <g class="st18">
+          <g class="st18">
+            <g class="st18">
+              <g class="st18">
+                <g class="st18">
+                  <g class="st18">
+                    <g class="st18">
+                      <g class="st18">
+                        <text class="st19" transform="translate(56.5 120.7)"><tspan x="0" y="0">vLLM framework-level latency attack efficiency</tspan></text>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <rect class="st6" x="56.5" y="132.7" width="45" height="18" rx="4" ry="4"/>
+    <g class="st18">
+      <g class="st18">
+        <g class="st18">
+          <g class="st18">
+            <g class="st18">
+              <g class="st18">
+                <g class="st18">
+                  <g class="st18">
+                    <g class="st18">
+                      <g class="st18">
+                        <text class="st29" transform="translate(67.8 144.7)"><tspan x="0" y="0">Attack</tspan></text>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <rect class="st12" x="106.5" y="132.7" width="80" height="18" rx="4" ry="4"/>
+    <g class="st18">
+      <g class="st18">
+        <g class="st18">
+          <g class="st18">
+            <g class="st18">
+              <g class="st18">
+                <g class="st18">
+                  <g class="st18">
+                    <g class="st18">
+                      <g class="st18">
+                        <text class="st16" transform="translate(108.8 144.7)"><tspan x="0" y="0">20-280× slowdown</tspan></text>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g>
+    <path class="st30" d="M-23.5-25.3"/>
+    <polygon class="st37" points="205 172.7 209.5 163.7 214 172.7 205 172.7"/>
+    <path class="st37" d="M209.5,166.7" marker-end="url(#arrowGray)"/>
+  </g>
+  <g class="st18">
+    <g class="st18">
+      <g class="st18">
+        <g class="st18">
+          <g class="st18">
+            <g class="st18">
+              <g class="st18">
+                <g class="st18">
+                  <g class="st18">
+                    <g class="st18">
+                      <text class="st25" transform="translate(216.4 177.7)"><tspan x="0" y="0">Fundamental analysis</tspan></text>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g>
+    <rect class="st10" x="6" y="182.7" width="400" height="110" rx="10" ry="10"/>
+    <rect class="st3" x="7" y="182.7" width="400" height="110" rx="10" ry="10"/>
+    <path class="st32" d="M43.5,180.7h0c1.1,0,2,.9,2,2v106c0,1.1-.9,2-2,2h0c-1.1,0-2-.9-2-2v-106c0-1.1.9-2,2-2Z"/>
+    <path class="st38" d="M59.5,192.7h90.8c2.5,0,4.6,1.8,4.6,4v10c0,2.2-2.1,4-4.6,4H59.5c-2.5,0-4.6-1.8-4.6-4v-10c0-2.2,2.1-4,4.6-4Z"/>
+    <g class="st18">
+      <g class="st18">
+        <g class="st18">
+          <g class="st18">
+            <g class="st18">
+              <g class="st18">
+                <g class="st18">
+                  <g class="st18">
+                    <g class="st18">
+                      <g class="st18">
+                        <text class="st21" transform="translate(58.5 205.7)"><tspan x="0" y="0">ARCHITECTURE LAYER</tspan></text>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <rect class="st38" x="336.5" y="192.7" width="60" height="18" rx="4" ry="4"/>
+    <g class="st18">
+      <g class="st18">
+        <g class="st18">
+          <g class="st18">
+            <g class="st18">
+              <g class="st18">
+                <g class="st18">
+                  <g class="st18">
+                    <g class="st18">
+                      <g class="st18">
+                        <text class="st15" transform="translate(350.5 204.7)"><tspan x="0" y="0">IEEE TIFS</tspan></text>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g class="st18">
+      <g class="st18">
+        <g class="st18">
+          <g class="st18">
+            <g class="st18">
+              <g class="st18">
+                <g class="st18">
+                  <g class="st18">
+                    <g class="st18">
+                      <g class="st18">
+                        <text class="st26" transform="translate(56.5 230.7)"><tspan x="0" y="0">Chosen-Object Attack on DETR</tspan></text>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g class="st18">
+      <g class="st18">
+        <g class="st18">
+          <g class="st18">
+            <g class="st18">
+              <g class="st18">
+                <g class="st18">
+                  <g class="st18">
+                    <g class="st18">
+                      <g class="st18">
+                        <text class="st19" transform="translate(56.5 252.7)"><tspan x="0" y="0">Exploit Transformer matching for fine-grained attacks</tspan></text>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <rect class="st6" x="56.5" y="264.7" width="45" height="18" rx="4" ry="4"/>
+    <g class="st18">
+      <g class="st18">
+        <g class="st18">
+          <g class="st18">
+            <g class="st18">
+              <g class="st18">
+                <g class="st18">
+                  <g class="st18">
+                    <g class="st18">
+                      <g class="st18">
+                        <text class="st29" transform="translate(67.8 276.7)"><tspan x="0" y="0">Attack</tspan></text>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <rect class="st12" x="106.5" y="264.7" width="95" height="18" rx="4" ry="4"/>
+    <g class="st18">
+      <g class="st18">
+        <g class="st18">
+          <g class="st18">
+            <g class="st18">
+              <g class="st18">
+                <g class="st18">
+                  <g class="st18">
+                    <g class="st18">
+                      <g class="st18">
+                        <text class="st16" transform="translate(113.2 276.7)"><tspan x="0" y="0">Hungarian matching</tspan></text>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g>
+    <path class="st30" d="M-23.5-25.3"/>
+    <polygon class="st37" points="205 302.7 209.5 293.7 214 302.7 205 302.7"/>
+    <path class="st37" d="M209.5,296.7" marker-end="url(#arrowGray)"/>
+  </g>
+  <g class="st18">
+    <g class="st18">
+      <g class="st18">
+        <g class="st18">
+          <g class="st18">
+            <g class="st18">
+              <g class="st18">
+                <g class="st18">
+                  <g class="st18">
+                    <g class="st18">
+                      <text class="st25" transform="translate(216.4 307.7)"><tspan x="0" y="0">Architecture extension</tspan></text>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g>
+    <rect class="st10" x="6.5" y="312.7" width="400" height="110" rx="10" ry="10"/>
+    <rect class="st1" x="6.5" y="313.7" width="400" height="110" rx="10" ry="10"/>
+    <path class="st34" d="M43.5,309.7h0c1.1,0,2,.9,2,2v106c0,1.1-.9,2-2,2h0c-1.1,0-2-.9-2-2v-106c0-1.1.9-2,2-2Z"/>
+    <rect class="st31" x="55.5" y="321.7" width="100" height="18" rx="4" ry="4"/>
+    <g class="st18">
+      <g class="st18">
+        <g class="st18">
+          <g class="st18">
+            <g class="st18">
+              <g class="st18">
+                <g class="st18">
+                  <g class="st18">
+                    <g class="st18">
+                      <g class="st18">
+                        <text class="st17" transform="translate(61.3 334.7)"><tspan x="0" y="0">COMPONENT LAYER</tspan></text>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <rect class="st31" x="336.5" y="321.7" width="60" height="18" rx="4" ry="4"/>
+    <g class="st18">
+      <g class="st18">
+        <g class="st18">
+          <g class="st18">
+            <g class="st18">
+              <g class="st18">
+                <g class="st18">
+                  <g class="st18">
+                    <g class="st18">
+                      <g class="st18">
+                        <text class="st22" transform="translate(352.5 333.7)"><tspan x="0" y="0">CVPR&apos;25</tspan></text>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g class="st18">
+      <g class="st18">
+        <g class="st18">
+          <g class="st18">
+            <g class="st18">
+              <g class="st18">
+                <g class="st18">
+                  <g class="st18">
+                    <g class="st18">
+                      <g class="st18">
+                        <text class="st26" transform="translate(56.5 359.7)"><tspan x="0" y="0">Underload: Hardware-Adaptive Defense</tspan></text>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g class="st18">
+      <g class="st18">
+        <g class="st18">
+          <g class="st18">
+            <g class="st18">
+              <g class="st18">
+                <g class="st18">
+                  <g class="st18">
+                    <g class="st18">
+                      <g class="st18">
+                        <text class="st19" transform="translate(56.5 381.7)"><tspan x="0" y="0">CNN-based latency attack defense via NMS optimization</tspan></text>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <rect class="st31" x="56.5" y="393.7" width="52" height="18" rx="4" ry="4"/>
+    <g class="st18">
+      <g class="st18">
+        <g class="st18">
+          <g class="st18">
+            <g class="st18">
+              <g class="st18">
+                <g class="st18">
+                  <g class="st18">
+                    <g class="st18">
+                      <g class="st18">
+                        <text class="st17" transform="translate(67.3 405.7)"><tspan x="0" y="0">Defense</tspan></text>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <rect class="st12" x="113.5" y="393.7" width="78" height="18" rx="4" ry="4"/>
+    <g class="st18">
+      <g class="st18">
+        <g class="st18">
+          <g class="st18">
+            <g class="st18">
+              <g class="st18">
+                <g class="st18">
+                  <g class="st18">
+                    <g class="st18">
+                      <g class="st18">
+                        <text class="st16" transform="translate(128 405.7)"><tspan x="0" y="0">13→43 FPS</tspan></text>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <circle class="st9" cx="406.5" cy="367.7" r="5"/>
+  </g>
+  <g>
+    <rect class="st10" x="481.5" y="134.7" width="270" height="105" rx="10" ry="10"/>
+    <rect class="st0" x="481.5" y="134.7" width="270" height="105" rx="10" ry="10"/>
+    <path class="st33" d="M482.9,134.7h267.3c.7,0,1.3.9,1.3,2h0c0,1.1-.6,2-1.3,2h-267.3c-.7,0-1.3-.9-1.3-2h0c0-1.1.6-2,1.3-2h0Z"/>
+    <circle class="st7" cx="481.5" cy="186.7" r="5"/>
+    <rect class="st35" x="493.5" y="146.7" width="58" height="18" rx="4" ry="4"/>
+    <g class="st18">
+      <g class="st18">
+        <g class="st18">
+          <g class="st18">
+            <g class="st18">
+              <g class="st18">
+                <g class="st18">
+                  <g class="st18">
+                    <g class="st18">
+                      <g class="st18">
+                        <text class="st28" transform="translate(507.3 158.7)"><tspan x="0" y="0">ICDCS&apos;25</tspan></text>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g class="st18">
+      <g class="st18">
+        <g class="st18">
+          <g class="st18">
+            <g class="st18">
+              <g class="st18">
+                <g class="st18">
+                  <g class="st18">
+                    <g class="st18">
+                      <g class="st18">
+                        <text class="st26" transform="translate(496.5 184.7)"><tspan x="0" y="0">Multi-DNN Pipelining</tspan></text>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g class="st18">
+      <g class="st18">
+        <g class="st18">
+          <g class="st18">
+            <g class="st18">
+              <g class="st18">
+                <g class="st18">
+                  <g class="st18">
+                    <g class="st18">
+                      <g class="st18">
+                        <text class="st19" transform="translate(496.5 206.7)"><tspan x="0" y="0">Parallel inference on heterogeneous mobile processors</tspan></text>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <rect class="st12" x="496.5" y="216.7" width="70" height="15" rx="3" ry="3"/>
+    <g class="st18">
+      <g class="st18">
+        <g class="st18">
+          <g class="st18">
+            <g class="st18">
+              <g class="st18">
+                <g class="st18">
+                  <g class="st18">
+                    <g class="st18">
+                      <g class="st18">
+                        <text class="st20" transform="translate(508.6 227.7)"><tspan x="0" y="0">System-level</tspan></text>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g>
+    <rect class="st10" x="481.5" y="294.7" width="270" height="105" rx="10" ry="10"/>
+    <rect class="st0" x="480.5" y="294.7" width="270" height="105" rx="10" ry="10"/>
+    <path class="st33" d="M482.9,294.7h267.3c.7,0,1.3.9,1.3,2h0c0,1.1-.6,2-1.3,2h-267.3c-.7,0-1.3-.9-1.3-2h0c0-1.1.6-2,1.3-2h0Z"/>
+    <circle class="st8" cx="481.5" cy="346.7" r="5"/>
+    <rect class="st35" x="493.5" y="306.7" width="58" height="18" rx="4" ry="4"/>
+    <g class="st18">
+      <g class="st18">
+        <g class="st18">
+          <g class="st18">
+            <g class="st18">
+              <g class="st18">
+                <g class="st18">
+                  <g class="st18">
+                    <g class="st18">
+                      <g class="st18">
+                        <text class="st28" transform="translate(510.5 318.7)"><tspan x="0" y="0">AAAI&apos;25</tspan></text>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g class="st18">
+      <g class="st18">
+        <g class="st18">
+          <g class="st18">
+            <g class="st18">
+              <g class="st18">
+                <g class="st18">
+                  <g class="st18">
+                    <g class="st18">
+                      <g class="st18">
+                        <text class="st26" transform="translate(496.5 344.7)"><tspan x="0" y="0">Fed-DFA</tspan></text>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g class="st18">
+      <g class="st18">
+        <g class="st18">
+          <g class="st18">
+            <g class="st18">
+              <g class="st18">
+                <g class="st18">
+                  <g class="st18">
+                    <g class="st18">
+                      <g class="st18">
+                        <text class="st19" transform="translate(496.5 366.7)"><tspan x="0" y="0">Federated distillation uncertainty exploration</tspan></text>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <rect class="st12" x="496.5" y="376.7" width="65" height="15" rx="3" ry="3"/>
+    <g class="st18">
+      <g class="st18">
+        <g class="st18">
+          <g class="st18">
+            <g class="st18">
+              <g class="st18">
+                <g class="st18">
+                  <g class="st18">
+                    <g class="st18">
+                      <g class="st18">
+                        <text class="st20" transform="translate(508 387.7)"><tspan x="0" y="0">Model-level</tspan></text>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+  <path class="st2" d="M406.5,367.7c38,0,38-181,75-181"/>
+  <circle class="st33" cx="481.5" cy="186.7" r="4"/>
+  <rect class="st11" x="411.5" y="254.7" width="78" height="18" rx="3" ry="3"/>
+  <g class="st18">
+    <g class="st18">
+      <g class="st18">
+        <g class="st18">
+          <g class="st18">
+            <g class="st18">
+              <g class="st18">
+                <g class="st18">
+                  <g class="st18">
+                    <g class="st18">
+                      <text class="st21" transform="translate(421.5 266.7)"><tspan x="0" y="0">Latency Control</tspan></text>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+  <path class="st5" d="M406.5,367.7c38,0,38-21,75-21"/>
+  <circle class="st33" cx="481.5" cy="346.7" r="4"/>
+  <rect class="st11" x="411.5" y="352.7" width="72" height="18" rx="3" ry="3"/>
+  <g class="st18">
+    <g class="st18">
+      <g class="st18">
+        <g class="st18">
+          <g class="st18">
+            <g class="st18">
+              <g class="st18">
+                <g class="st18">
+                  <g class="st18">
+                    <g class="st18">
+                      <text class="st24" transform="translate(420.5 364.7)"><tspan x="0" y="0">PGD Boundary</tspan></text>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g>
+    <g class="st18">
+      <g class="st18">
+        <g class="st18">
+          <g class="st18">
+            <g class="st18">
+              <g class="st18">
+                <g class="st18">
+                  <g class="st18">
+                    <g class="st18">
+                      <g class="st18">
+                        <text class="st14" transform="translate(41.5 456.7)"><tspan x="0" y="0">Legend:</tspan></text>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <rect class="st36" x="96.5" y="447.7" width="11" height="11" rx="2" ry="2"/>
+    <g class="st18">
+      <g class="st18">
+        <g class="st18">
+          <g class="st18">
+            <g class="st18">
+              <g class="st18">
+                <g class="st18">
+                  <g class="st18">
+                    <g class="st18">
+                      <g class="st18">
+                        <text class="st16" transform="translate(112.5 456.7)"><tspan x="0" y="0">Attack</tspan></text>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <rect class="st34" x="156.5" y="447.7" width="11" height="11" rx="2" ry="2"/>
+    <g class="st18">
+      <g class="st18">
+        <g class="st18">
+          <g class="st18">
+            <g class="st18">
+              <g class="st18">
+                <g class="st18">
+                  <g class="st18">
+                    <g class="st18">
+                      <g class="st18">
+                        <text class="st16" transform="translate(172.5 456.7)"><tspan x="0" y="0">Defense</tspan></text>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <rect class="st33" x="221.5" y="447.7" width="11" height="11" rx="2" ry="2"/>
+    <g class="st18">
+      <g class="st18">
+        <g class="st18">
+          <g class="st18">
+            <g class="st18">
+              <g class="st18">
+                <g class="st18">
+                  <g class="st18">
+                    <g class="st18">
+                      <g class="st18">
+                        <text class="st16" transform="translate(237.5 456.7)"><tspan x="0" y="0">Collaboration</tspan></text>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,20 @@
+"CVPR":
+  color: "#0076df"
+
+"arXiv preprint":
+  color: "#6b7280"
+
+"IEEE TIFS":
+  color: "#ff3636"
+
+"AAAI":
+  color: "#00ab37"
+
+"ICDCS":
+  color: "#f29105"
+
+"INFOCOM":
+  color: "#7c3aed"
+
+"IEEE TSE":
+  color: "#b509ac"
