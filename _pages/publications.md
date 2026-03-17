@@ -1,17 +1,10 @@
 ---
-layout: page
+layout: custom_page
 permalink: /publications/
-title: publications
-description: Full list of publications in reversed chronological order.
-nav: true
-nav_order: 2
+title: Publications
 ---
 
 <!-- _pages/publications.md -->
-
-<!-- Bibsearch Feature -->
-
-{% include bib_search.liquid %}
 
 <div class="publications">
 

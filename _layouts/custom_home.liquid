@@ -1,0 +1,311 @@
+<!doctype html>
+<html lang="{{ site.lang }}">
+  <!-- Head -->
+  <head>
+    {% if page.redirect %}
+      {% if page.redirect == true %}
+        {% assign redirect = site.baseurl | append: '/' %}
+      {% elsif page.redirect contains '://' %}
+        {% assign redirect = page.redirect %}
+      {% else %}
+        {% assign redirect = page.redirect | relative_url %}
+      {% endif %}
+      <meta http-equiv="refresh" content="3; url={{ redirect }}">
+    {% endif %}
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>{{ site.first_name }} {{ site.last_name }} | Ph.D. Student at Zhejiang University</title>
+    <meta name="author" content="{{ site.first_name }} {{ site.last_name }}">
+    <meta name="description" content="{{ page.description | default: site.description }}">
+    
+    <!-- Fonts & Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    {% if site.icon != blank %}
+      <link rel="shortcut icon" href="{{ site.icon | prepend: '/assets/img/' | relative_url }}">
+    {% endif %}
+    
+    <style>
+      :root {
+        --primary: #2563eb;
+        --primary-dark: #1d4ed8;
+        --primary-light: #dbeafe;
+        --accent: #7c3aed;
+        --accent-light: #ede9fe;
+        --text: #1f2937;
+        --text-light: #6b7280;
+        --bg: #ffffff;
+        --bg-alt: #f9fafb;
+        --border: #e5e7eb;
+        --success: #10b981;
+        --warning: #f59e0b;
+        --danger: #ef4444;
+      }
+      
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      
+      body {
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+        line-height: 1.6;
+        color: var(--text);
+        background: var(--bg);
+      }
+      
+      .container { max-width: 1100px; margin: 0 auto; padding: 0 24px; }
+      
+      /* Header with animated gradient background */
+      header {
+        padding: 60px 0 40px;
+        background: linear-gradient(270deg, #f8fafc, #e2e8f0);
+        background-size: 400% 400%;
+        -webkit-animation: AnimationName 30s ease infinite;
+        -moz-animation: AnimationName 30s ease infinite;
+        animation: AnimationName 30s ease infinite;
+        border-bottom: 1px solid var(--border);
+      }
+      
+      @-webkit-keyframes AnimationName {
+        0%{background-position:0% 50%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 50%}
+      }
+      @-moz-keyframes AnimationName {
+        0%{background-position:0% 50%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 50%}
+      }
+      @keyframes AnimationName {
+        0%{background-position:0% 50%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 50%}
+      }
+      
+      .profile-section { display: flex; gap: 40px; align-items: flex-start; }
+      .profile-image {
+        width: 200px; height: 200px; border-radius: 50%;
+        overflow: hidden;
+        display: flex; align-items: center; justify-content: center;
+        flex-shrink: 0;
+        box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+      }
+      .profile-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        image-rendering: -webkit-optimize-contrast;
+        image-rendering: crisp-edges;
+      }
+      .profile-info h1 { font-size: 2.5rem; font-weight: 700; margin-bottom: 8px; color: var(--text); }
+      .profile-info .title { font-size: 1.1rem; color: var(--text-light); margin-bottom: 16px; }
+      .profile-info .affiliation { color: var(--text-light); margin-bottom: 20px; }
+      .social-links { display: flex; gap: 16px; }
+      .social-links a { color: var(--text-light); font-size: 1.2rem; transition: color 0.2s; }
+      .social-links a:hover { color: var(--primary); }
+      
+      /* Navigation */
+      nav { background: var(--bg); border-bottom: 1px solid var(--border); position: sticky; top: 0; z-index: 100; }
+      nav ul { display: flex; gap: 32px; list-style: none; padding: 16px 0; margin: 0; }
+      nav a { color: var(--text); text-decoration: none; font-weight: 500; padding: 8px 0; border-bottom: 2px solid transparent; transition: all 0.2s; }
+      nav a:hover, nav a.active { color: var(--primary); border-bottom-color: var(--primary); }
+      
+      /* ===== 双栏总览布局 ===== */
+      .overview-grid {
+        display: grid;
+        grid-template-columns: 1fr 550px;
+        gap: 40px;
+        padding: 48px 0;
+        border-bottom: 1px solid var(--border);
+      }
+      
+      .overview-left { 
+        align-self: start;
+      }
+      
+      .overview-left h2 {
+        margin-bottom: 20px;
+        font-size: 1.3rem;
+      }
+      
+      .overview-left p {
+        font-size: 0.95rem;
+        line-height: 1.7;
+        color: var(--text);
+        margin-bottom: 16px;
+      }
+      
+      .overview-left ul {
+        margin: 16px 0;
+        padding-left: 20px;
+        color: var(--text);
+        font-size: 0.95rem;
+        line-height: 1.8;
+      }
+      
+      .research-interests { 
+        display: flex; 
+        flex-wrap: wrap; 
+        gap: 8px; 
+        margin-top: 20px; 
+      }
+      
+      .tag { 
+        background: var(--bg-alt); 
+        padding: 6px 12px; 
+        border-radius: 20px; 
+        font-size: 0.85rem; 
+        border: 1px solid var(--border); 
+      }
+      
+      .overview-right h2 {
+        margin-bottom: 24px;
+        font-size: 1.3rem;
+      }
+      
+      /* Education items */
+      .education-item { margin-bottom: 16px; }
+      .education-item .degree { font-weight: 600; }
+      .education-item .details { font-size: 0.9rem; color: var(--text-light); }
+      .education-item .note { font-size: 0.85rem; color: var(--text-light); font-style: italic; }
+      
+      /* Publications list style */
+      .pub-list {
+        margin-top: 20px;
+      }
+      .pub-item {
+        margin-bottom: 24px;
+        line-height: 1.7;
+      }
+      .pub-badge {
+        display: inline-block;
+        color: white;
+        padding: 2px 10px;
+        border-radius: 4px;
+        font-size: 0.85rem;
+        font-weight: 600;
+        margin-right: 8px;
+      }
+      .pub-authors {
+        color: var(--text-light);
+        font-size: 0.95rem;
+      }
+      .pub-venue {
+        color: var(--text-light);
+        font-size: 0.9rem;
+        font-style: italic;
+      }
+      
+      /* Footer */
+      footer {
+        padding: 40px 0;
+        text-align: center;
+        border-top: 1px solid var(--border);
+        color: var(--text-light);
+        font-size: 0.9rem;
+      }
+      
+      /* 响应式 */
+      @media (max-width: 1024px) {
+        .overview-grid {
+          grid-template-columns: 1fr;
+          gap: 32px;
+        }
+        
+        .overview-left {
+          border-bottom: 1px solid var(--border);
+          padding-bottom: 32px;
+        }
+        
+        .profile-section {
+          flex-direction: column;
+          align-items: center;
+          text-align: center;
+        }
+      }
+    </style>
+  </head>
+
+  <!-- Body -->
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="container">
+        <div class="profile-section">
+          <div class="profile-image"><img src="{{ '/assets/img/wty.png' | relative_url }}" alt="{{ site.first_name }} {{ site.last_name }}"></div>
+          <div class="profile-info">
+            <h1>{{ site.first_name }} {{ site.last_name }} (王添毅)</h1>
+            <p class="title">Ph.D. Student in Control Science and Engineering</p>
+            <p class="affiliation"><i class="fas fa-university"></i> College of Control Science and Engineering, Zhejiang University</p>
+            <div class="social-links">
+              <a href="mailto:zjuwty@outlook.com" title="Email"><i class="fas fa-envelope"></i></a>
+              <a href="https://github.com/Hill-Wu-1998" title="GitHub"><i class="fab fa-github"></i></a>
+              <a href="https://scholar.google.com/citations?user=RFuhM2IAAAAJ&hl=zh-CN" title="Google Scholar" target="_blank" rel="noopener noreferrer"><i class="fas fa-graduation-cap"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+      <div class="container">
+        <ul>
+          <li><a href="{{ '/' | relative_url }}" class="active">Overview</a></li>
+          <li><a href="{{ '/publications/' | relative_url }}">Publications</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Content -->
+    <main class="container">
+      {{ content }}
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <p>© 2025 {{ site.first_name }} {{ site.last_name }} | Ph.D. Student at Zhejiang University</p>
+      </div>
+    </footer>
+
+    <script>
+      // Smooth scrolling for anchor links only
+      document.querySelectorAll('nav a').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+          const href = this.getAttribute('href');
+          // Only handle anchor links (starting with #)
+          if (href && href.startsWith('#')) {
+            e.preventDefault();
+            const target = document.querySelector(href);
+            if (target) {
+              target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+              document.querySelectorAll('nav a').forEach(a => a.classList.remove('active'));
+              this.classList.add('active');
+            }
+          }
+          // External page links will navigate normally
+        });
+      });
+
+      window.addEventListener('scroll', () => {
+        const sections = document.querySelectorAll('#overview, #publications');
+        const navLinks = document.querySelectorAll('nav a');
+        let current = '';
+        sections.forEach(section => {
+          const sectionTop = section.offsetTop;
+          if (scrollY >= sectionTop - 100) {
+            current = section.getAttribute('id');
+          }
+        });
+        navLinks.forEach(link => {
+          link.classList.remove('active');
+          if (link.getAttribute('href') === '#' + current) {
+            link.classList.add('active');
+          }
+        });
+      });
+    </script>
+  </body>
+</html>

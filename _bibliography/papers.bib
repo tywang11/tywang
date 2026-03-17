@@ -8,21 +8,21 @@
   booktitle={Proceedings of the Computer Vision and Pattern Recognition Conference},
   pages={19230--19240},
   selected={true},
-  abstract={Latency attacks pose a critical threat to real-time object detection systems on edge devices by generating phantom objects that congest the NMS pipeline. This paper proposes Underload, a hardware-adaptive, background-attentive adversarial training mechanism that achieves favorable balance between clean and robust accuracy. Our defense restores real-time processing capability from 13 FPS to 43 FPS on Jetson Orin NX, with 8-10% improvement in robust accuracy compared to existing defenses.},
+  abstract={Object detection is a fundamental enabler for many real-time downstream applications such as autonomous driving, augmented reality and supply chain management. However, the algorithmic backbone of neural networks is brittle to imperceptible perturbations in the system inputs, which were generally known as misclassifying attacks. By targeting the real-time processing capability, a new class of latency attacks has been reported recently. They exploit new attack surfaces in object detectors by creating a computational bottleneck in the post-processing module, which leads to cascading failure and puts the real-time downstream tasks at risk. In this work, we take an initial attempt to defend against this attack via background-attentive adversarial training that is also cognizant of the underlying hardware capabilities. We first draw system-level connections between latency attacks and hardware capacity across heterogeneous GPU devices. Based on the particular adversarial behaviors, we utilize objectness loss as a proxy and build background attention into the adversarial training pipeline, and achieve a favorable balance between clean and robust accuracy. The extensive experiments demonstrate the effectiveness of the defense in restoring real-time processing capability from 13 FPS to 43 FPS on Jetson Orin NX, with a better trade-off between the clean and robust accuracy.},
   pdf={underload.pdf},
   code={https://github.com/Hill-Wu-1998/underload},
-  keywords={adversarial machine learning, object detection, edge computing, latency attacks}
+  keywords={adversarial machine learning, object detection, edge computing, latency attacks},
   year={2025}
 }
 
 @inproceedings{wang2025llm,
-  abbr={arXiv preprint},
+  abbr={arXiv},
   title={Rethinking Latency Denial-of-Service: Attacking the LLM Serving Framework, Not the Model},
   author={Wang, Tianyi and Fan, Huawei and Shu, Yuanchao and Cheng, Peng and Wang, Cong},
   journal={arXiv preprint arXiv:2602.07878},
   year={2026},
   selected={true},
-  abstract={This work rethinks denial-of-service attacks in LLM serving systems, revealing new attack surfaces and proposing countermeasures for ensuring reliable LLM inference in production environments.},
+  abstract={Large Language Models face an emerging and critical threat known as latency attacks. Because LLM inference is inherently expensive, even modest slowdowns can translate into substantial operating costs and severe availability risks. Recently, a growing body of research has focused on algorithmic complexity attacks by crafting inputs to trigger worst-case output lengths. However, we report a counter-intuitive finding that these algorithmic latency attacks are largely ineffective against modern LLM serving systems. We reveal that system-level optimization such as continuous batching provides a logical isolation to mitigate contagious latency impact on co-located users. To this end, in this paper, we shift the focus from the algorithm to the system layer, and introduce a new Fill and Squeeze attack strategy targeting the state transition of the scheduler. "Fill" first exhausts the global KV cache to induce Head-of-Line blocking, while "Squeeze" forces the system into repetitive preemption. By manipulating output lengths using methods from simple plain-text prompts to more complex prompt engineering, and leveraging side-channel probing of memory status, we demonstrate that the attack can be orchestrated in a black-box setting with much less cost. Extensive evaluations indicate by up to 20-280× average slowdown on Time to First Token and 1.5-4× average slowdown on Time Per Output Token compared to existing attacks with 30-40% lower attack cost.},
   pdf={llm_dos.pdf},
   keywords={LLM serving, denial-of-service, adversarial attacks, system security}
 }
@@ -34,7 +34,7 @@
   journal={IEEE Transactions on Information Forensics and Security},
   year={2026},
   selected={true},
-  abstract={We discover a novel attack vector against Detection Transformers (DETR) by exploiting vulnerabilities in the Hungarian matching loss. Our chosen-object attack can effectively manipulate detection results with minimal perturbations, exposing critical security flaws in modern transformer-based object detectors.},
+  abstract={Different from traditional object detectors such as YOLO, Detection Transformers (DETR) have reshaped the landscape of object detection by replacing heuristic-driven components like Non-Maximal Suppression with a fully end-to-end framework based on one-to-one Hungarian matching. While the majority of research has focused on improving the slow training convergence of DETR, this work investigates their security from an adversarial perspective. We unveil a critical vulnerability stemming directly from DETR's core design: the deterministic one-to-one mapping between object queries and ground-truth objects can be exploited. This allows an adversary to craft perturbations that selectively manipulate specific target objects, causing them to vanish or be misclassified, while still preserving the detection integrity of all other objects in the scene. Our initial analysis reveals that conventional gradient-based attacks are ill-suited for this task, as they induce unintended interference on non-target instances, a phenomenon we term as the "spillover effect". To overcome this, we re-formulate the attack optimization by incorporating a novel penalty term that explicitly decouples the adversarial influence on target and non-target objects. Furthermore, we provide a theoretical analysis to derive perturbation bounds under which the optimal matching assignments remain invariant, offering deeper insights into the model's stability. Extensive experiments on standard benchmarks demonstrate that our proposed attack significantly improves the success rate and convergence speed while inducing far fewer feature-level artifacts, making the attack both more effective and stealthier.},
   pdf={chosen_object.pdf},
   keywords={object detection, transformers, adversarial attacks, DETR}
 }
@@ -49,21 +49,23 @@
   pages={21429--21437},
   year={2025},
   selected={true},
-  abstract={We propose Fed-DFA, a federated distillation framework that enables heterogeneous model fusion through an adversarial lens, improving distributed training performance across diverse model architectures.},
-  keywords={federated learning, knowledge distillation, adversarial learning}
+  abstract={Most of the federated learning techniques are limited to homogeneous model fusion. With the rapid growth of smart applications on resource-constrained edge devices, it becomes a barrier to accommodate their heterogeneous computing power and memory in the real world. Federated Distillation is a promising alternative that enables aggregation from heterogeneous models. However, the effectiveness of knowledge transfer still remains elusive under the shadow of distinct representation power from heterogeneous models. In this paper, we approach from an adversarial perspective to characterize the decision boundaries during distillation. By leveraging K-step PGD attacks, we successfully model the dynamics of the closest boundary points and establish a quantitative connection between the predictive uncertainty and boundary margin. Based on these findings, we further propose a new loss function to make the distillation attend to samples close to the decision boundaries, thus learning from more informed logit distributions. The extensive experiments over CIFAR-10/100 and Tiny-ImageNet demonstrate about 0.5-3.5% improvement of accuracy under different IID and non-IID settings, with only a small increment of computational overhead.},
+  keywords={federated learning, knowledge distillation, adversarial learning},
+  pdf={fed_dfa.pdf}
 }
 
 @inproceedings{zhang2025pipelining,
   abbr={ICDCS},
-  title={Hetero 2 Pipe: Pipelining Multi-DNN Inference on Heterogeneous Mobile Processors under Co-Execution Slowdown},
+  title={Hetero<sup>2</sup>Pipe: Pipelining Multi-DNN Inference on Heterogeneous Mobile Processors under Co-Execution Slowdown},
   author={Shen, Yuhao and Wang, Zichen and Wang, Tianyi and Gu, Chaojie and Wen, Zhenyu and Shu, Yuanchao and Wang, Cong},
   booktitle={2025 IEEE 45th International Conference on Distributed Computing Systems (ICDCS)},
   pages={483--493},
   year={2025},
   organization={IEEE},
   selected={true},
-  abstract={We present a pipelining approach for multi-DNN inference on heterogeneous mobile processors, addressing co-execution slowdown challenges through dynamic scheduling and resource allocation.},
-  keywords={edge computing, DNN inference, pipeline optimization, mobile processors}
+  abstract={The emerging multi-modal applications exemplified by multi-DNN inference have renewed interests for mobile intelligence. The goal is to utilize heterogeneous processors on-board to maximize throughput and resource utilization. Among a variety of options, building model-paralleled pipelines across different processors is a promising way. However, the existing efforts either focus on optimizing homogeneous DNN executions or simply ignore co-execution slowdown on the shared memory bus. Based on extensive empirical studies and insights with various degrees of resource contention, in this work, we introduce Hetero2Pipe, a two-step pipeline planner based on dynamic programming, and contention-mitigated pipeline bubble minimization to make the problem tractable within manageable search space. The extensive evaluation across three commercial SoCs demonstrates 2-8× speedup compared to the state-of-the-art schemes.},
+  keywords={edge computing, DNN inference, pipeline optimization, mobile processors},
+  pdf={hetero2pipe.pdf}
 }
 
 @inproceedings{qin2024reverse,
@@ -74,7 +76,9 @@
   pages={2408--2417},
   year={2024},
   selected={false},
-  organization={IEEE}
+  organization={IEEE},
+  abstract={Industrial protocols are widely used in Industrial Control Systems (ICSs) to network physical devices, thus playing a crucial role in securing ICSs. However, most commercial industrial protocols are proprietary and owned by their vendors, which impedes the implementation of protections against cyber threats. In this paper, we design REInPro to Reverse Engineer Industrial Protocols. REInPro is inspired by the fact that the structure of industrial protocols can be determined by a particular field referred to control field. By applying a probabilistic model of network traffic behavior, REInPro automatically identifies the control field and groups the associated network traffic into clusters. REInPro then infers critical semantics of industrial protocols by differentiating the features of corresponding protocol fields. We have experimentally implemented and evaluated REInPro using 8 different industrial protocols across 6 Programmable Logic Controllers (PLCs) belonging to 5 original equipment manufacturers. The experimental results show REInPro to reverse-engineer the formats and semantics of industrial protocols with an average correctness/perfection of 0.70/0.58 and 0.96/0.39.},
+  pdf={reverse_engineering.pdf}
 }
 
 @article{zhu2023better,
@@ -86,5 +90,7 @@
   number={2},
   pages={190--208},
   year={2023},
-  publisher={IEEE}
+  publisher={IEEE},
+  abstract={Fuzzing is one of the prevailing methods for vulnerability detection. However, even state-of-the-art fuzzing methods become ineffective after some period of time, i.e., the coverage hardly improves as existing methods are ineffective to focus the attention of fuzzing on covering the hard-to-trigger program paths. In other words, they cannot generate inputs that can break the bottleneck due to the fundamental difficulty in capturing the complex relations between the test inputs and program coverage. In particular, existing fuzzers suffer from the following main limitations: 1) lacking an overall analysis of the program to identify the most "rewarding" seeds, and 2) lacking an effective mutation strategy which could continuously select and mutates the more relevant "bytes" of the seeds. In this work, we propose an approach called ATTuzz to address these two issues systematically. First, we propose a lightweight dynamic analysis technique which estimates the "reward" of covering each basic block and selects the most rewarding seeds accordingly. Second, we mutate the selected seeds according to a neural network model which predicts whether a certain "rewarding" block will be covered given certain mutation on certain bytes of a seed. The model is a deep learning model equipped with attention mechanism which is learned and updated periodically whilst fuzzing. Our evaluation shows that ATTuzz significantly outperforms 5 state-of-the-art grey-box fuzzers on 13 popular real-world programs at achieving higher edge coverage and finding new bugs. In particular, ATTuzz achieved 2X edge coverage and 4X bugs detected than AFL over 24-hour runs.},
+  pdf={fuzzing_attention.pdf}
 }
